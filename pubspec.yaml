@@ -1,0 +1,45 @@
+name: blog_app
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Ensure Dart 3.x compatibility
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  firebase_auth: ^4.17.9
+  cloud_firestore: ^4.15.9
+  firebase_storage: ^11.7.7
+  image_picker: ^1.0.7
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+  provider: ^6.1.2
+  cached_network_image: ^3.3.1
+  uuid: ^4.3.3
+  firebase_core: ^2.32.0 # Upgraded to match firebase_data_connect's requirement
+
+dev_dependencies:
+  flutter_lints: ^5.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/image1.png
+    - assets/image2.webp
+    - assets/image3.webp
+    - assets/image4.webp
+    - assets/image5.webp
+    - assets/image6.webp
+    - assets/image7.webp
+    - assets/image8.webp
+    - assets/image9.webp
+    - assets/image10.jpg
+    - assets/vision_gate.png  # ✅ Added your logo image here
